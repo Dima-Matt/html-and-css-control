@@ -122,8 +122,8 @@ h1{
 }
 
 .main-text{
-    margin-left: 15%;
-    margin-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
     position: relative;
     top: 10%;
     line-height: 1.2;
@@ -154,6 +154,8 @@ h1{
     object-fit: cover;
 }
 
+
+
 .small-text{
     font-size: 13px;
     text-align: justify;
@@ -163,6 +165,10 @@ h1{
 
 .main-text-2{
     padding: 50px;
+}
+
+.doot-karus-adaptive{
+    display: none;
 }
 
 .kar-cover{
@@ -191,6 +197,8 @@ h1{
     display: none;
 }
 
+
+
 .white-button{
     border: 1px solid white;
     padding: 10px 20px;
@@ -207,6 +215,11 @@ div.outer div.disp-non{
 
 div.outer:hover div.disp-non{
    display: block;
+
+}
+
+.outer:hover {
+    height: 200px;
 }
 
 div.bootstrap-kar div.prev-next{
@@ -392,6 +405,10 @@ div.bootstrap-kar:hover div.prev-next{
      border-color: lightgray;
 }
 
+.boot-karus-adaptive{
+    display: none;
+}
+
 
 
 /* form-margin{
@@ -404,15 +421,27 @@ div.bootstrap-kar:hover div.prev-next{
         display: none;
     }
 
+    h1{
+        font-size: 30px;
+    }
+
+    .main-text{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0%;
+        
+    }
+
     .image {
         width: 100%;
-        height: 352px;
+        height: 300px;
         object-fit: cover;
     }
 
     .data-image {
         width: inherit;
-        height: 351px;
+        height: 300px;
+        margin-top: 10px;
     }
 
     .adaptive-row{
@@ -481,5 +510,20 @@ div.bootstrap-kar:hover div.prev-next{
         left: 34%;
     }
 
-    
+    .boot-karus-adaptive{
+        display: block;
+    }
+
+    .bootstrap-kar{
+        display: none;
+    }
+
+    div.adaptive-outer:hover div.disp-non{
+        display: block;
+    }
+
+    .adaptive-outer{
+        height:  200px;
+    }
+
     }
